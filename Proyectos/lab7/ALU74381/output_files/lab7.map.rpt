@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab7
-Thu Apr 09 20:37:21 2020
+Thu Apr 09 21:49:54 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,13 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Messages
 
 
 
@@ -42,20 +36,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 09 20:37:20 2020       ;
+; Analysis & Synthesis Status        ; Failed - Thu Apr 09 21:49:54 2020           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab7                                        ;
 ; Top-level Entity Name              ; lab7                                        ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 2                                           ;
-;     Total combinational functions  ; 2                                           ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 24                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -161,149 +155,33 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                    ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path             ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
-; lab7.vhd                         ; yes             ; User VHDL File  ; E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
-
-
-+---------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                   ;
-+---------------------------------------------+-----------------+
-; Resource                                    ; Usage           ;
-+---------------------------------------------+-----------------+
-; Estimated Total logic elements              ; 2               ;
-;                                             ;                 ;
-; Total combinational functions               ; 2               ;
-; Logic element usage by number of LUT inputs ;                 ;
-;     -- 4 input functions                    ; 2               ;
-;     -- 3 input functions                    ; 0               ;
-;     -- <=2 input functions                  ; 0               ;
-;                                             ;                 ;
-; Logic elements by mode                      ;                 ;
-;     -- normal mode                          ; 2               ;
-;     -- arithmetic mode                      ; 0               ;
-;                                             ;                 ;
-; Total registers                             ; 0               ;
-;     -- Dedicated logic registers            ; 0               ;
-;     -- I/O registers                        ; 0               ;
-;                                             ;                 ;
-; I/O pins                                    ; 24              ;
-;                                             ;                 ;
-; Embedded Multiplier 9-bit elements          ; 0               ;
-;                                             ;                 ;
-; Maximum fan-out node                        ; KEY_EX[0]~input ;
-; Maximum fan-out                             ; 2               ;
-; Total fan-out                               ; 33              ;
-; Average fan-out                             ; 0.66            ;
-+---------------------------------------------+-----------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |lab7                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 24   ; 0            ; |lab7               ; lab7        ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; boundary_port         ; 24                          ;
-; cycloneiii_lcell_comb ; 3                           ;
-;     normal            ; 3                           ;
-;         0 data inputs ; 1                           ;
-;         4 data inputs ; 2                           ;
-;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.56                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:01     ;
-+----------------+--------------+
-
-
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Apr 09 20:37:09 2020
+    Info: Processing started: Thu Apr 09 21:49:45 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab7 -c lab7
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file lab7.vhd
-    Info (12022): Found design unit 1: lab7-funcLab7 File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 19
-    Info (12023): Found entity 1: lab7 File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 9
+Error (10500): VHDL syntax error at lab7.vhd(42) near text "=>";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 42
+Error (10500): VHDL syntax error at lab7.vhd(43) near text "port";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 43
+Error (10500): VHDL syntax error at lab7.vhd(45) near text ";";  expecting ":=", or "<=" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 45
+Error (10500): VHDL syntax error at lab7.vhd(47) near text "port";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 47
+Error (10500): VHDL syntax error at lab7.vhd(49) near text ";";  expecting ":=", or "<=" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 49
+Error (10500): VHDL syntax error at lab7.vhd(52) near text "WHEN";  expecting ";" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 52
+Info (12021): Found 0 design units, including 0 entities, in source file lab7.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file /vlsi/componentes/disp_seg7.vhd
     Info (12022): Found design unit 1: disp_seg7-dispFunc File: E:/VLSI/Componentes/disp_seg7.vhd Line: 15
     Info (12023): Found entity 1: disp_seg7 File: E:/VLSI/Componentes/disp_seg7.vhd Line: 9
 Info (12021): Found 2 design units, including 1 entities, in source file /vlsi/componentes/alu.vhd
     Info (12022): Found design unit 1: alu-aluFunc File: E:/VLSI/Componentes/alu.vhd Line: 17
     Info (12023): Found entity 1: alu File: E:/VLSI/Componentes/alu.vhd Line: 9
-Info (12127): Elaborating entity "lab7" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at lab7.vhd(15): used implicit default value for signal "DISP" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-Warning (10873): Using initial value X (don't care) for net "LED[3..1]" at lab7.vhd(14) File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 14
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED[1]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 14
-    Warning (13410): Pin "LED[2]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 14
-    Warning (13410): Pin "LED[3]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 14
-    Warning (13410): Pin "DISP[7]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[6]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[5]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[4]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[3]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[2]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-    Warning (13410): Pin "DISP[1]" is stuck at GND File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 15
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 7 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "DIP_SW[4]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 11
-    Warning (15610): No output dependent on input pin "DIP_SW[3]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 11
-    Warning (15610): No output dependent on input pin "DIP_SW[2]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 11
-    Warning (15610): No output dependent on input pin "DIP_SW[1]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 11
-    Warning (15610): No output dependent on input pin "SW[0]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 12
-    Warning (15610): No output dependent on input pin "SW[1]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 12
-    Warning (15610): No output dependent on input pin "SW[2]" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 12
-Info (21057): Implemented 26 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 11 output pins
-    Info (21061): Implemented 2 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4799 megabytes
-    Info: Processing ended: Thu Apr 09 20:37:21 2020
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:19
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 6 errors, 1 warning
+    Error: Peak virtual memory: 4781 megabytes
+    Error: Processing ended: Thu Apr 09 21:49:54 2020
+    Error: Elapsed time: 00:00:09
+    Error: Total CPU time (on all processors): 00:00:19
 
 
