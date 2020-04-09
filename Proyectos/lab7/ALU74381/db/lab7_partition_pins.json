@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIP_SW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY_EX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIP_SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY_EX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIP_SW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DIP_SW[8]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
