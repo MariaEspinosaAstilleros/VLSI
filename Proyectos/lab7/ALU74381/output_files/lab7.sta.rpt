@@ -1,5 +1,5 @@
 Timing Analyzer report for lab7
-Thu Apr 09 20:37:37 2020
+Mon Apr 13 11:28:47 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -95,7 +95,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.1%      ;
+;     Processors 2-6         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -257,6 +257,7 @@ No synchronizer chains to report.
 ; DISP[3]       ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; DISP[2]       ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; DISP[1]       ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; R             ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 +---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
@@ -267,19 +268,19 @@ No synchronizer chains to report.
 +-------------------------+--------------+-----------------+-----------------+
 ; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +-------------------------+--------------+-----------------+-----------------+
-; DIP_SW[4]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[3]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[2]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[1]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; SW[0]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; SW[1]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; SW[2]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[7]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; KEY_EX[0]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[6]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; KEY_EX[1]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; DIP_SW[5]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; KEY_EX[0]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[4]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; DIP_SW[8]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; SW[1]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; SW[0]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; SW[2]                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[3]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[7]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[2]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[6]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[1]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DIP_SW[5]               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -302,6 +303,7 @@ No synchronizer chains to report.
 ; DISP[3]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.95e-09 V                   ; 2.38 V              ; -0.016 V            ; 0.22 V                               ; 0.025 V                              ; 3.06e-10 s                  ; 3.3e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.95e-09 V                  ; 2.38 V             ; -0.016 V           ; 0.22 V                              ; 0.025 V                             ; 3.06e-10 s                 ; 3.3e-10 s                  ; Yes                       ; Yes                       ;
 ; DISP[2]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.95e-09 V                   ; 2.38 V              ; -0.016 V            ; 0.22 V                               ; 0.025 V                              ; 3.06e-10 s                  ; 3.3e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.95e-09 V                  ; 2.38 V             ; -0.016 V           ; 0.22 V                              ; 0.025 V                             ; 3.06e-10 s                 ; 3.3e-10 s                  ; Yes                       ; Yes                       ;
 ; DISP[1]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.95e-09 V                   ; 2.33 V              ; -0.00616 V          ; 0.191 V                              ; 0.099 V                              ; 2.83e-09 s                  ; 2.56e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.95e-09 V                  ; 2.33 V             ; -0.00616 V         ; 0.191 V                             ; 0.099 V                             ; 2.83e-09 s                 ; 2.56e-09 s                 ; No                        ; Yes                       ;
+; R             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.44e-09 V                   ; 2.39 V              ; -0.0265 V           ; 0.2 V                                ; 0.033 V                              ; 2.94e-10 s                  ; 3.12e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 4.44e-09 V                  ; 2.39 V             ; -0.0265 V          ; 0.2 V                               ; 0.033 V                             ; 2.94e-10 s                 ; 3.12e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.45e-09 V                   ; 2.38 V              ; -0.0609 V           ; 0.148 V                              ; 0.095 V                              ; 2.82e-10 s                  ; 2.59e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.45e-09 V                  ; 2.38 V             ; -0.0609 V          ; 0.148 V                             ; 0.095 V                             ; 2.82e-10 s                 ; 2.59e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.61e-09 V                   ; 2.38 V              ; -0.00274 V          ; 0.141 V                              ; 0.006 V                              ; 4.7e-10 s                   ; 6.02e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 5.61e-09 V                  ; 2.38 V             ; -0.00274 V         ; 0.141 V                             ; 0.006 V                             ; 4.7e-10 s                  ; 6.02e-10 s                 ; Yes                       ; Yes                       ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
@@ -323,6 +325,7 @@ No synchronizer chains to report.
 ; DISP[3]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-06 V                   ; 2.36 V              ; -0.00724 V          ; 0.107 V                              ; 0.02 V                               ; 4.5e-10 s                   ; 4.25e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-06 V                  ; 2.36 V             ; -0.00724 V         ; 0.107 V                             ; 0.02 V                              ; 4.5e-10 s                  ; 4.25e-10 s                 ; Yes                       ; Yes                       ;
 ; DISP[2]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-06 V                   ; 2.36 V              ; -0.00724 V          ; 0.107 V                              ; 0.02 V                               ; 4.5e-10 s                   ; 4.25e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-06 V                  ; 2.36 V             ; -0.00724 V         ; 0.107 V                             ; 0.02 V                              ; 4.5e-10 s                  ; 4.25e-10 s                 ; Yes                       ; Yes                       ;
 ; DISP[1]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-06 V                   ; 2.33 V              ; -0.00344 V          ; 0.134 V                              ; 0.075 V                              ; 3.33e-09 s                  ; 3.16e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-06 V                  ; 2.33 V             ; -0.00344 V         ; 0.134 V                             ; 0.075 V                             ; 3.33e-09 s                 ; 3.16e-09 s                 ; Yes                       ; Yes                       ;
+; R             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.16e-07 V                   ; 2.36 V              ; -0.00476 V          ; 0.096 V                              ; 0.013 V                              ; 4.39e-10 s                  ; 4.15e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.16e-07 V                  ; 2.36 V             ; -0.00476 V         ; 0.096 V                             ; 0.013 V                             ; 4.39e-10 s                 ; 4.15e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.74e-07 V                   ; 2.36 V              ; -0.0201 V           ; 0.072 V                              ; 0.033 V                              ; 4.04e-10 s                  ; 3.29e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 5.74e-07 V                  ; 2.36 V             ; -0.0201 V          ; 0.072 V                             ; 0.033 V                             ; 4.04e-10 s                 ; 3.29e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.45e-07 V                   ; 2.35 V              ; -0.00643 V          ; 0.081 V                              ; 0.031 V                              ; 5.31e-10 s                  ; 7.59e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.45e-07 V                  ; 2.35 V             ; -0.00643 V         ; 0.081 V                             ; 0.031 V                             ; 5.31e-10 s                 ; 7.59e-10 s                 ; Yes                       ; Yes                       ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
@@ -344,6 +347,7 @@ No synchronizer chains to report.
 ; DISP[3]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
 ; DISP[2]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
 ; DISP[1]       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.64 V              ; -0.0113 V           ; 0.208 V                              ; 0.179 V                              ; 2.38e-09 s                  ; 2.23e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.64 V             ; -0.0113 V          ; 0.208 V                             ; 0.179 V                             ; 2.38e-09 s                 ; 2.23e-09 s                 ; No                        ; Yes                       ;
+; R             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.73 V              ; -0.0384 V           ; 0.169 V                              ; 0.089 V                              ; 2.7e-10 s                   ; 2.62e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.73 V             ; -0.0384 V          ; 0.169 V                             ; 0.089 V                             ; 2.7e-10 s                  ; 2.62e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.22e-08 V                   ; 2.74 V              ; -0.06 V             ; 0.158 V                              ; 0.08 V                               ; 2.68e-10 s                  ; 2.19e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.22e-08 V                  ; 2.74 V             ; -0.06 V            ; 0.158 V                             ; 0.08 V                              ; 2.68e-10 s                 ; 2.19e-10 s                 ; Yes                       ; Yes                       ;
 ; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.54e-08 V                   ; 2.7 V               ; -0.00943 V          ; 0.276 V                              ; 0.035 V                              ; 3.19e-10 s                  ; 4.99e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.54e-08 V                  ; 2.7 V              ; -0.00943 V         ; 0.276 V                             ; 0.035 V                             ; 3.19e-10 s                 ; 4.99e-10 s                 ; No                        ; Yes                       ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
@@ -374,10 +378,10 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 6     ; 6    ;
-; Unconstrained Input Port Paths  ; 6     ; 6    ;
-; Unconstrained Output Ports      ; 1     ; 1    ;
-; Unconstrained Output Port Paths ; 6     ; 6    ;
+; Unconstrained Input Ports       ; 11    ; 11   ;
+; Unconstrained Input Port Paths  ; 77    ; 77   ;
+; Unconstrained Output Ports      ; 7     ; 7    ;
+; Unconstrained Output Port Paths ; 77    ; 77   ;
 +---------------------------------+-------+------+
 
 
@@ -386,12 +390,17 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +------------+--------------------------------------------------------------------------------------+
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
+; DIP_SW[1]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[2]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[3]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[4]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[5]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[6]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[7]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[8]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY_EX[0]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY_EX[1]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[0]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[1]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[2]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +------------+--------------------------------------------------------------------------------------+
 
 
@@ -400,7 +409,13 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
-; LED[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[1]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[2]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[3]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[4]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[5]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[6]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[7]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
 
 
@@ -409,12 +424,17 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +------------+--------------------------------------------------------------------------------------+
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
+; DIP_SW[1]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[2]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[3]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DIP_SW[4]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[5]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[6]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[7]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; DIP_SW[8]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY_EX[0]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY_EX[1]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[0]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[1]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[2]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +------------+--------------------------------------------------------------------------------------+
 
 
@@ -423,7 +443,13 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
-; LED[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[1]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[2]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[3]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[4]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[5]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[6]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DISP[7]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
 
 
@@ -433,7 +459,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Apr 09 20:37:35 2020
+    Info: Processing started: Mon Apr 13 11:28:44 2020
 Info: Command: quartus_sta lab7 -c lab7
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -482,8 +508,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4806 megabytes
-    Info: Processing ended: Thu Apr 09 20:37:37 2020
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Mon Apr 13 11:28:47 2020
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

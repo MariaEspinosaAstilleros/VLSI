@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab7
-Thu Apr 09 21:49:54 2020
+Mon Apr 13 11:40:45 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Thu Apr 09 21:49:54 2020           ;
+; Analysis & Synthesis Status        ; Failed - Mon Apr 13 11:40:45 2020           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab7                                        ;
 ; Top-level Entity Name              ; lab7                                        ;
@@ -161,26 +161,29 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Apr 09 21:49:45 2020
+    Info: Processing started: Mon Apr 13 11:40:37 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab7 -c lab7
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
-Error (10500): VHDL syntax error at lab7.vhd(42) near text "=>";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 42
-Error (10500): VHDL syntax error at lab7.vhd(43) near text "port";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 43
-Error (10500): VHDL syntax error at lab7.vhd(45) near text ";";  expecting ":=", or "<=" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 45
-Error (10500): VHDL syntax error at lab7.vhd(47) near text "port";  expecting "(", or "'", or "." File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 47
-Error (10500): VHDL syntax error at lab7.vhd(49) near text ";";  expecting ":=", or "<=" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 49
-Error (10500): VHDL syntax error at lab7.vhd(52) near text "WHEN";  expecting ";" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 52
-Info (12021): Found 0 design units, including 0 entities, in source file lab7.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file lab7.vhd
+    Info (12022): Found design unit 1: lab7-funcLab7 File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 20
+    Info (12023): Found entity 1: lab7 File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 9
 Info (12021): Found 2 design units, including 1 entities, in source file /vlsi/componentes/disp_seg7.vhd
     Info (12022): Found design unit 1: disp_seg7-dispFunc File: E:/VLSI/Componentes/disp_seg7.vhd Line: 15
     Info (12023): Found entity 1: disp_seg7 File: E:/VLSI/Componentes/disp_seg7.vhd Line: 9
 Info (12021): Found 2 design units, including 1 entities, in source file /vlsi/componentes/alu.vhd
     Info (12022): Found design unit 1: alu-aluFunc File: E:/VLSI/Componentes/alu.vhd Line: 17
     Info (12023): Found entity 1: alu File: E:/VLSI/Componentes/alu.vhd Line: 9
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 6 errors, 1 warning
+Error (10349): VHDL Association List error at lab7.vhd(47): formal "i1" does not exist File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 47
+Error (10346): VHDL error at lab7.vhd(46): formal port or parameter "A" must have actual or default value File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 46
+Error (10784): HDL error at lab7.vhd(26): see declaration for object "A" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 26
+Error (10346): VHDL error at lab7.vhd(46): formal port or parameter "B" must have actual or default value File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 46
+Error (10784): HDL error at lab7.vhd(27): see declaration for object "B" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 27
+Error (10346): VHDL error at lab7.vhd(46): formal port or parameter "s" must have actual or default value File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 46
+Error (10784): HDL error at lab7.vhd(28): see declaration for object "s" File: E:/VLSI/Proyectos/lab7/ALU74381/lab7.vhd Line: 28
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 7 errors, 1 warning
     Error: Peak virtual memory: 4781 megabytes
-    Error: Processing ended: Thu Apr 09 21:49:54 2020
+    Error: Processing ended: Mon Apr 13 11:40:46 2020
     Error: Elapsed time: 00:00:09
     Error: Total CPU time (on all processors): 00:00:19
 

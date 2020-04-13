@@ -99,7 +99,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B12       :        :                   :      
 LED[2]                       : B13       : output : 2.5 V             :         : 7         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
 GND                          : B15       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 6         :                
+R                            : B16       : output : 2.5 V             :         : 6         : N              
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
