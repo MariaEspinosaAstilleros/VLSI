@@ -19,7 +19,6 @@ END lab7;
 
 ARCHITECTURE funcLab7 OF lab7 IS  
 SIGNAL l : STD_LOGIC_VECTOR(3 DOWNTO 0); 
-SIGNAL i1, i2, sel, o: STD_LOGIC; 
 -- componente de la alu
 COMPONENT alu 
     PORT(
@@ -47,15 +46,10 @@ BEGIN
         result => l , display => DISP(1 TO 7)
     );
 
-    --WITH KEY_EX SELECT
-        --R <= F WHEN "00",        -- muestra el resultado de la operacion
-            -- B WHEN "01",        -- muestra el operando B
-             --A WHEN "10",        -- muestra el operando A
-             --s WHEN OTHERS;      -- muestra las entradas de seleccion
     PROCESS(s, A, B, F)
         BEGIN 
             CASE KEY_EX (0 TO 1) IS 
-                WHEN "00" => R <= f;
+                WHEN "00" => R <= F;
                 WHEN "01" => R <= B;
                 WHEN "10" => R <= A;
                 WHEN OTHERS => R <= s; 

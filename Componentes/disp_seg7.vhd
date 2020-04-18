@@ -17,7 +17,7 @@ BEGIN
     PROCESS(result)
     BEGIN
         CASE result is
-            WHEN "0000" => display <= "0000000"; -- 0
+            WHEN "0000" => display <= "1111110"; -- 0
             WHEN "0001" => display <= "0110000"; -- 1
             WHEN "0010" => display <= "1101101"; -- 2
             WHEN "0011" => display <= "1111001"; -- 3
