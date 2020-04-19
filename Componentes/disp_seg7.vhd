@@ -8,8 +8,8 @@ USE ieee.std_logic_unsigned.all;
 
 ENTITY disp_seg7 IS 
     PORT (
-        result :  IN STD_LOGIC_VECTOR(3 DOWNTO 0);   -- resultado de la operacion
-        display : OUT STD_LOGIC_VECTOR(1 TO 7)); -- display de 7 segmentos
+        result :  IN STD_LOGIC_VECTOR(0 TO 3);   -- resultado de la operacion                       
+        display : OUT STD_LOGIC_VECTOR(1 TO 7));     -- display de 7 segmentos
 END disp_seg7;
 
 ARCHITECTURE dispFunc OF disp_seg7 IS 

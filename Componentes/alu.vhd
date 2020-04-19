@@ -10,8 +10,8 @@ ENTITY alu IS
     PORT(
         A:  IN STD_LOGIC_VECTOR(1 TO 4);         -- primer operando
         B:  IN STD_LOGIC_VECTOR(5 TO 8);         -- segundo operando
-        s:  IN STD_LOGIC_VECTOR(2 DOWNTO 0);     -- entrada de selección 
-        F:  OUT STD_LOGIC_VECTOR(3 DOWNTO 0));   -- salida 
+        s:  IN STD_LOGIC_VECTOR(0 TO 2);     -- entrada de selección 
+        F:  OUT STD_LOGIC_VECTOR(0 TO 3));   -- salida 
 END alu; 
 
 ARCHITECTURE aluFunc OF alu IS 
