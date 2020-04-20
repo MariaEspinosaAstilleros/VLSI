@@ -1,6 +1,10 @@
 -- Laboratorio 7: Diseño de la ALU74381
 -- Autor: María Espinosa Astilleros
--- Desarrollo: Realizar el diseño del circuito digital para la ALU74381
+-- Desarrollo: Realizar el diseño del circuito digital para la ALU74381. Los operandos A y B (ambos de 4 bits) se introducirán mediante 
+--             los dip switches externos (A=DIP_SW[1-4] y B=DIP_SW[5-8]). El código de operación de la ALU se indicará con los dip switches propios 
+--             de la DE0-nano (SW[2-0]) y el resultado de la operación se mostrará tanto en los leds de la DE0-nano (F=LED[3-0]) como decodificado 
+--             en el display de siete segmentos (DISP[1-7]). Adicionalmente los pulsadores externos (KEY_EX[0-1]) permitirán seleccionar cuál es el 
+--             resultado mostrado tanto en los leds como en el display.
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
