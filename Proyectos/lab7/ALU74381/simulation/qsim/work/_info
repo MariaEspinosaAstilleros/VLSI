@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim
 Ehard_block
-Z1 w1587313132
+Z1 w1587369727
 Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
 Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
 Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
@@ -25,9 +25,9 @@ VOgIg9T_BR7joedFDVM>H13
 !s100 A`ID_i56<Ua56=ZD=[EG=2
 Z10 OV;C;10.5b;63
 32
-Z11 !s110 1587313133
+Z11 !s110 1587369731
 !i10b 1
-Z12 !s108 1587313133.000000
+Z12 !s108 1587369731.000000
 Z13 !s90 -work|work|lab7.vho|
 Z14 !s107 lab7.vho|
 !i113 1
@@ -68,8 +68,8 @@ R8
 R9
 l0
 L77
-VmjTT@ea1P]5kzFO1EzECG0
-!s100 CNO`?Y[k1c6gTEd1JhPb:2
+V:VB1;zYDC=mKfzOabC_ZH0
+!s100 gMi7V27nSeCaQ;f^HcRS>1
 R10
 32
 R11
@@ -87,7 +87,7 @@ R4
 R5
 R6
 R7
-DEx4 work 4 lab7 0 22 mjTT@ea1P]5kzFO1EzECG0
+DEx4 work 4 lab7 0 22 :VB1;zYDC=mKfzOabC_ZH0
 l216
 L114
 VWll@kBoeRmC:Pbi]WjdN80
@@ -129,8 +129,8 @@ R6
 Z21 DEx4 work 16 lab7_vhd_vec_tst 0 22 bkMfP`[Ykf=[FLeQ::>I[2
 l50
 L33
-Z22 Vm9^8aRCS=;FK[V?83ligo3
-Z23 !s100 3RMWVXHoHjc2=<7>oB^c71
+VbWW]ElbCW4nU3Y`eoe@Xc3
+!s100 U50IOfcYS]fa4zYBBc:NY3
 R10
 32
 R11

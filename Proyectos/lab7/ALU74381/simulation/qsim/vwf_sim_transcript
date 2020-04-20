@@ -25,7 +25,7 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sun Apr 19 18:18:51 2020
+    Info: Processing started: Mon Apr 20 10:02:06 2020
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off lab7 -c lab7 --vector_source=E:/VLSI/Proyectos/lab7/ALU74381/Waveform.vwf --testbench_file=E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim/Waveform.vwf.vht
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -51,13 +51,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sun Apr 19 18:18:52 2020
+    Info: Processing started: Mon Apr 20 10:02:07 2020
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim/ lab7 -c lab7
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file lab7.vho in folder "E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4638 megabytes
-    Info: Processing ended: Sun Apr 19 18:18:52 2020
+    Info: Processing ended: Mon Apr 20 10:02:07 2020
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
@@ -75,15 +75,18 @@ E:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vsim -c -do lab7.do
 
 Reading E:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
+
 # 10.5b
 
 # do lab7.do
 
 # ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:53 on Apr 19,2020
+# Start time: 10:02:11 on Apr 20,2020
 # vcom -work work lab7.vho 
 # -- Loading package STANDARD
+
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package VITAL_Timing
@@ -94,22 +97,22 @@ Reading E:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # -- Compiling architecture structure of hard_block
 # -- Compiling entity lab7
 # -- Compiling architecture structure of lab7
-# End time: 18:18:53 on Apr 19,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 
+# End time: 10:02:11 on Apr 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:53 on Apr 19,2020
+# Start time: 10:02:11 on Apr 20,2020
 # vcom -work work Waveform.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab7_vhd_vec_tst
 # -- Compiling architecture lab7_arch of lab7_vhd_vec_tst
-# End time: 18:18:53 on Apr 19,2020, Elapsed time: 0:00:00
+# End time: 10:02:11 on Apr 20,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.lab7_vhd_vec_tst 
-# Start time: 18:18:53 on Apr 19,2020
+# Start time: 10:02:12 on Apr 20,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -126,7 +129,7 @@ Reading E:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
 # after#33
 
-# End time: 18:18:53 on Apr 19,2020, Elapsed time: 0:00:00
+# End time: 10:02:13 on Apr 20,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
@@ -139,7 +142,7 @@ Reading E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim/lab7.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim/lab7_20200419181854.sim.vwf
+Writing the resulting VWF to E:/VLSI/Proyectos/lab7/ALU74381/simulation/qsim/lab7_20200420100214.sim.vwf
 
 Finished VCD to VWF conversion.
 

@@ -29,17 +29,17 @@ KEY_EX[0] => Mux0.IN3
 KEY_EX[0] => Mux1.IN3
 KEY_EX[0] => Mux2.IN3
 KEY_EX[0] => Mux3.IN3
-LED[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
-LED[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-LED[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
-LED[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
-DISP[7] <= disp_seg7:d.display[7]
-DISP[6] <= disp_seg7:d.display[6]
-DISP[5] <= disp_seg7:d.display[5]
-DISP[4] <= disp_seg7:d.display[4]
-DISP[3] <= disp_seg7:d.display[3]
-DISP[2] <= disp_seg7:d.display[2]
-DISP[1] <= disp_seg7:d.display[1]
+LED[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LED[0] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+DISP[7] << disp_seg7:d.display[7]
+DISP[6] << disp_seg7:d.display[6]
+DISP[5] << disp_seg7:d.display[5]
+DISP[4] << disp_seg7:d.display[4]
+DISP[3] << disp_seg7:d.display[3]
+DISP[2] << disp_seg7:d.display[2]
+DISP[1] << disp_seg7:d.display[1]
 
 
 |lab7|alu:a

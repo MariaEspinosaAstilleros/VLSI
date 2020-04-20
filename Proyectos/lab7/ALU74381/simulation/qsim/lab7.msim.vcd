@@ -3,7 +3,7 @@ $comment
 		vcd file lab7.msim.vcd -direction
 $end
 $date
-	Sun Apr 19 18:18:53 2020
+	Mon Apr 20 10:02:13 2020
 $end
 $version
 	ModelSim Version 10.5b
@@ -257,6 +257,17 @@ x;
 06
 07
 08
+02
+03
+04
+05
+1)
+1*
+1+
+1,
+1-
+1.
+0/
 0B
 1C
 1D
@@ -281,17 +292,6 @@ x;
 1W
 1X
 0Y
-1)
-1*
-1+
-1,
-1-
-1.
-0/
-02
-03
-04
-05
 $end
 #10000
 18

@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "04/19/2020 18:18:44"
+-- DATE "04/20/2020 09:43:11"
 
 -- 
 -- Device: Altera EP4CE22F17C6 Package FBGA256
@@ -79,8 +79,8 @@ ENTITY 	lab7 IS
 	DIP_SW : IN std_logic_vector(1 TO 8);
 	SW : IN std_logic_vector(0 TO 2);
 	KEY_EX : IN std_logic_vector(0 TO 1);
-	LED : OUT std_logic_vector(0 TO 3);
-	DISP : OUT std_logic_vector(1 TO 7)
+	LED : BUFFER std_logic_vector(0 TO 3);
+	DISP : BUFFER std_logic_vector(1 TO 7)
 	);
 END lab7;
 
