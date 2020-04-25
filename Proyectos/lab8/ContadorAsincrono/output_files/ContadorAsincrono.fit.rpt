@@ -1,5 +1,5 @@
 Fitter report for ContadorAsincrono
-Sat Apr 25 16:58:20 2020
+Sat Apr 25 17:13:01 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat Apr 25 16:58:20 2020       ;
+; Fitter Status                      ; Successful - Sat Apr 25 17:13:01 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ContadorAsincrono                           ;
 ; Top-level Entity Name              ; contador_asincrono                          ;
@@ -1180,8 +1180,8 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file E:/VLSI/Proyectos/lab8/ContadorAsincrono/output_files/ContadorAsincrono.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 42 warnings
-    Info: Peak virtual memory: 5653 megabytes
-    Info: Processing ended: Sat Apr 25 16:58:21 2020
+    Info: Peak virtual memory: 5654 megabytes
+    Info: Processing ended: Sat Apr 25 17:13:02 2020
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:06
 

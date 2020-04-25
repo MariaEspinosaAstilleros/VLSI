@@ -34,7 +34,7 @@ BEGIN
             ELSIF ld = '0' AND en = '1' THEN                         
                 cnt <= cnt + 1;                       -- si enable está activo y la señal de carga no está activada se aumenta el valor del contador a 1 
             ELSIF ld = '1' THEN  
-                cnt <= R;                             -- cargo el valor que contenga R
+                cnt <= R;                             -- si la señal de carga está activa cargo el valor que contenga R
             END IF;     
         END IF; 
     END PROCESS; 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ContadorAsincrono
-Sat Apr 25 16:58:15 2020
+Sat Apr 25 17:12:56 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Apr 25 16:58:15 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sat Apr 25 17:12:56 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ContadorAsincrono                           ;
 ; Top-level Entity Name              ; contador_asincrono                          ;
@@ -272,7 +272,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Apr 25 16:58:04 2020
+    Info: Processing started: Sat Apr 25 17:12:46 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ContadorAsincrono -c ContadorAsincrono
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -289,8 +289,8 @@ Info (21057): Implemented 30 device resources after synthesis - the final resour
     Info (21061): Implemented 13 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4811 megabytes
-    Info: Processing ended: Sat Apr 25 16:58:15 2020
-    Info: Elapsed time: 00:00:11
+    Info: Processing ended: Sat Apr 25 17:12:56 2020
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:19
 
 

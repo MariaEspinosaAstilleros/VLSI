@@ -3,7 +3,7 @@ $comment
 		vcd file ContadorAsincrono.msim.vcd -direction
 $end
 $date
-	Sat Apr 25 16:58:33 2020
+	Sat Apr 25 17:13:15 2020
 $end
 $version
 	ModelSim Version 10.5b
