@@ -1,0 +1,11 @@
+
+State Machine - |secuencia|estado
+Name estado.st8 estado.st7 estado.st6 estado.st5 estado.st4 estado.st3 estado.st2 estado.st1 
+estado.st1 0 0 0 0 0 0 0 0 
+estado.st2 0 0 0 0 0 0 1 1 
+estado.st3 0 0 0 0 0 1 0 1 
+estado.st4 0 0 0 0 1 0 0 1 
+estado.st5 0 0 0 1 0 0 0 1 
+estado.st6 0 0 1 0 0 0 0 1 
+estado.st7 0 1 0 0 0 0 0 1 
+estado.st8 1 0 0 0 0 0 0 1 
