@@ -22,19 +22,19 @@ ARCHITECTURE lab8 OF contador_asincrono IS
     SIGNAL cnt: INTEGER RANGE 0 TO 15; 
     SIGNAL load: STD_LOGIC; 
 BEGIN 
-    PROCESS(clk, resetn)                              -- resetn activa el proceso de modo asincrono
+    PROCESS(clk, resetn, load)                              -- resetn activa el proceso de modo asincrono
     BEGIN 
         IF resetn = '0' THEN                          -- resetn activo a nivel bajo 
             cnt <= 0;                                 -- se reinicia el contador     
         ELSIF(clk'EVENT AND clk = '1') THEN           -- flanco de subida del reloj y enable activado
-            IF ld = '1' THEN                          -- carga activa a nivel alto
-                cnt <= R;                             -- cargo en el contador el valor que tenga el registro R 
-            ELSE
-                IF en = '1' THEN                      -- activo la señal de habilitacion
-                    cnt <= cnt + 1;                   -- aumento a 1 el contador
-                ELSE 
-                    cnt <= cnt;                       -- si el enable es 0 mantengo el valor del contador
-                END IF; 
+            IF load = '1' THEN 
+                cnt <= 0;  
+            ELSIF ld = '1' THEN                          -- carga activa a nivel alto
+                cnt <= R;                              -- cargo en el contador el valor que tenga el registro R                     -- activo la señal de habilitacio                        -- aumento a 1 el contado 
+            ELSIF en = '1' OR ld = '0' THEN
+                cnt <= cnt + 1; 
+            ELSE 
+                cnt <= cnt;                          -- si el enable es 0 mantengo el valor del contador 
             END IF; 
         END IF; 
     END PROCESS; 
@@ -47,7 +47,7 @@ BEGIN
         END IF; 
     END PROCESS; 
 
-    cout <= load;                                      -- asigno el signal load al indicador fin de cuenta
+    cout <= load; 
     Q <= cnt;                                          -- asigno el signal cnt al contador
 END lab8; 
     

@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/VLSI/Proyectos/lab8/ContadorAsincrono/simulation/qsim
 Econtador_asincrono
-Z1 w1587812984
+Z1 w1587817302
 Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
 Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
 Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -27,9 +27,9 @@ VV8QGX?PDz=df]<MJST;[>2
 !s100 :P3K^aTf1NFU16Z=UU:?P3
 Z12 OV;C;10.5b;63
 32
-Z13 !s110 1587812985
+Z13 !s110 1587817303
 !i10b 1
-Z14 !s108 1587812985.000000
+Z14 !s108 1587817303.000000
 Z15 !s90 -work|work|ContadorAsincrono.vho|
 Z16 !s107 ContadorAsincrono.vho|
 !i113 1
@@ -45,10 +45,10 @@ R7
 R8
 R9
 DEx4 work 18 contador_asincrono 0 22 V8QGX?PDz=df]<MJST;[>2
-l170
+l175
 L112
-VA_5e5364zO?f7Wa=j85Aj3
-!s100 iHV_M6NDe`5[OeVlP?]9V3
+VgWlO0lYf>WYD4Qg6_G3FS1
+!s100 <Ikd>YPF2SdXi;1W[NmJ?0
 R12
 32
 R13
@@ -60,12 +60,12 @@ R16
 R17
 R18
 Econtador_asincrono_vhd_vec_tst
-R1
+Z19 w1587817301
 R7
 R8
 R0
-Z19 8Waveform.vwf.vht
-Z20 FWaveform.vwf.vht
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
 l0
 L31
 V?BQQHanD`mDo1>7[RSU^12
@@ -75,26 +75,26 @@ R12
 R13
 !i10b 1
 R14
-Z21 !s90 -work|work|Waveform.vwf.vht|
-Z22 !s107 Waveform.vwf.vht|
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
 !i113 1
 R17
 R18
 Acontador_asincrono_arch
 R7
 R8
-Z23 DEx4 work 30 contador_asincrono_vhd_vec_tst 0 22 ?BQQHanD`mDo1>7[RSU^12
+Z24 DEx4 work 30 contador_asincrono_vhd_vec_tst 0 22 ?BQQHanD`mDo1>7[RSU^12
 l56
 L33
-VOd@2boEoGn0[I3Kj<g6H12
-!s100 LO6Yc:6X^3dj?4@GlL0Gh0
+Z25 V6SAeRHTG==BIK3cBD^O7V3
+Z26 !s100 c9>E_?2`4kne>h1D4TEX:1
 R12
 32
 R13
 !i10b 1
 R14
-R21
 R22
+R23
 !i113 1
 R17
 R18
