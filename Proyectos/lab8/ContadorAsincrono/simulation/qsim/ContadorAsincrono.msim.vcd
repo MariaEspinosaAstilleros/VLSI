@@ -1,0 +1,741 @@
+$comment
+	File created using the following command:
+		vcd file ContadorAsincrono.msim.vcd -direction
+$end
+$date
+	Sat Apr 25 13:09:46 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module contador_asincrono_vhd_vec_tst $end
+$var wire 1 ! clk $end
+$var wire 1 " cout $end
+$var wire 1 # en $end
+$var wire 1 $ ld $end
+$var wire 1 % max [3] $end
+$var wire 1 & max [2] $end
+$var wire 1 ' max [1] $end
+$var wire 1 ( max [0] $end
+$var wire 1 ) Q [3] $end
+$var wire 1 * Q [2] $end
+$var wire 1 + Q [1] $end
+$var wire 1 , Q [0] $end
+$var wire 1 - R [3] $end
+$var wire 1 . R [2] $end
+$var wire 1 / R [1] $end
+$var wire 1 0 R [0] $end
+$var wire 1 1 resetn $end
+
+$scope module i1 $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var wire 1 5 devoe $end
+$var wire 1 6 devclrn $end
+$var wire 1 7 devpor $end
+$var wire 1 8 ww_devoe $end
+$var wire 1 9 ww_devclrn $end
+$var wire 1 : ww_devpor $end
+$var wire 1 ; ww_clk $end
+$var wire 1 < ww_resetn $end
+$var wire 1 = ww_en $end
+$var wire 1 > ww_ld $end
+$var wire 1 ? ww_max [3] $end
+$var wire 1 @ ww_max [2] $end
+$var wire 1 A ww_max [1] $end
+$var wire 1 B ww_max [0] $end
+$var wire 1 C ww_R [3] $end
+$var wire 1 D ww_R [2] $end
+$var wire 1 E ww_R [1] $end
+$var wire 1 F ww_R [0] $end
+$var wire 1 G ww_cout $end
+$var wire 1 H ww_Q [3] $end
+$var wire 1 I ww_Q [2] $end
+$var wire 1 J ww_Q [1] $end
+$var wire 1 K ww_Q [0] $end
+$var wire 1 L \resetn~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 M \resetn~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 N \resetn~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 O \resetn~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 P \clk~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 Q \clk~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 R \clk~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 S \clk~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 T \cout~output_o\ $end
+$var wire 1 U \Q[0]~output_o\ $end
+$var wire 1 V \Q[1]~output_o\ $end
+$var wire 1 W \Q[2]~output_o\ $end
+$var wire 1 X \Q[3]~output_o\ $end
+$var wire 1 Y \max[1]~input_o\ $end
+$var wire 1 Z \clk~input_o\ $end
+$var wire 1 [ \clk~inputclkctrl_outclk\ $end
+$var wire 1 \ \ld~input_o\ $end
+$var wire 1 ] \R[0]~input_o\ $end
+$var wire 1 ^ \cnt~0_combout\ $end
+$var wire 1 _ \resetn~input_o\ $end
+$var wire 1 ` \resetn~inputclkctrl_outclk\ $end
+$var wire 1 a \en~input_o\ $end
+$var wire 1 b \cnt[3]~1_combout\ $end
+$var wire 1 c \max[0]~input_o\ $end
+$var wire 1 d \R[1]~input_o\ $end
+$var wire 1 e \cnt~2_combout\ $end
+$var wire 1 f \Equal0~0_combout\ $end
+$var wire 1 g \R[3]~input_o\ $end
+$var wire 1 h \R[2]~input_o\ $end
+$var wire 1 i \cnt~3_combout\ $end
+$var wire 1 j \cnt~4_combout\ $end
+$var wire 1 k \cnt~5_combout\ $end
+$var wire 1 l \cnt~6_combout\ $end
+$var wire 1 m \max[3]~input_o\ $end
+$var wire 1 n \max[2]~input_o\ $end
+$var wire 1 o \Equal0~1_combout\ $end
+$var wire 1 p \Equal0~2_combout\ $end
+$var wire 1 q cnt [3] $end
+$var wire 1 r cnt [2] $end
+$var wire 1 s cnt [1] $end
+$var wire 1 t cnt [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+1#
+0$
+11
+02
+13
+x4
+15
+16
+17
+18
+19
+1:
+1;
+1<
+1=
+0>
+0G
+0T
+0U
+0V
+0W
+0X
+0Y
+1Z
+1[
+0\
+0]
+1^
+1_
+1`
+1a
+1b
+1c
+1d
+0e
+0f
+1g
+0h
+0i
+0j
+1k
+0l
+1m
+0n
+0o
+0p
+1%
+0&
+0'
+1(
+1-
+0.
+1/
+00
+0)
+0*
+0+
+0,
+1?
+0@
+0A
+1B
+1C
+0D
+1E
+0F
+0H
+0I
+0J
+0K
+0q
+0r
+0s
+0t
+1P
+1Q
+1R
+1S
+1L
+1M
+1N
+1O
+$end
+#10000
+0!
+0;
+0Z
+0S
+0[
+#20000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+1e
+1f
+1U
+1K
+1,
+#30000
+0!
+0;
+0Z
+0S
+0[
+#40000
+1!
+1;
+1Z
+1S
+1[
+0t
+1s
+1^
+0f
+1V
+0U
+1J
+0K
+0,
+1+
+#50000
+0!
+0;
+0Z
+0S
+0[
+#60000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+0e
+1i
+1j
+1U
+1K
+1,
+#70000
+0!
+0;
+0Z
+0S
+0[
+#80000
+1!
+1;
+1Z
+1S
+1[
+0t
+0s
+1r
+1^
+1W
+0V
+0U
+1I
+0J
+0K
+0,
+0+
+1*
+#90000
+0!
+0;
+0Z
+0S
+0[
+#100000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+1e
+1f
+0k
+1U
+1K
+1,
+#110000
+0!
+0;
+0Z
+0S
+0[
+#120000
+1!
+0#
+1;
+0=
+0a
+1Z
+1S
+0b
+1[
+#130000
+0!
+0;
+0Z
+0S
+0[
+#140000
+1!
+1#
+1;
+1=
+1a
+1Z
+1S
+1b
+1[
+0t
+1s
+1l
+1^
+0f
+1k
+0l
+1V
+0U
+1J
+0K
+0,
+1+
+#150000
+0!
+0;
+0Z
+0S
+0[
+#160000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+0e
+0i
+0k
+1l
+0j
+1U
+1K
+1,
+#170000
+0!
+0;
+0Z
+0S
+0[
+#180000
+1!
+1;
+1Z
+1S
+1[
+0t
+0s
+0r
+1q
+1o
+1^
+1k
+1X
+0W
+0V
+0U
+1H
+0I
+0J
+0K
+0,
+0+
+0*
+1)
+#190000
+0!
+0;
+0Z
+0S
+0[
+#200000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+1e
+1f
+1p
+1U
+1K
+1,
+1T
+1G
+1"
+#210000
+0!
+0;
+0Z
+0S
+0[
+#220000
+1!
+1;
+1Z
+1S
+1[
+0t
+1s
+1^
+0f
+0p
+1V
+0U
+1J
+0K
+0,
+1+
+0T
+0G
+0"
+#230000
+0!
+0;
+0Z
+0S
+0[
+#240000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+0e
+1i
+1j
+1U
+1K
+1,
+#250000
+0!
+0;
+0Z
+0S
+0[
+#260000
+1!
+1;
+1Z
+1S
+1[
+0t
+0s
+1r
+0o
+1^
+1W
+0V
+0U
+1I
+0J
+0K
+0,
+0+
+1*
+#270000
+0!
+0;
+0Z
+0S
+0[
+#280000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+1e
+1f
+0k
+1U
+1K
+1,
+#290000
+0!
+0;
+0Z
+0S
+0[
+#300000
+1!
+1;
+1Z
+1S
+1[
+0t
+1s
+0l
+1^
+0f
+1k
+1l
+1V
+0U
+1J
+0K
+0,
+1+
+#310000
+0!
+0;
+0Z
+0S
+0[
+#320000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+0e
+0i
+0k
+0l
+0j
+1U
+1K
+1,
+#330000
+0!
+0;
+0Z
+0S
+0[
+#340000
+1!
+1;
+1Z
+1S
+1[
+0t
+0s
+0r
+0q
+1^
+1k
+0X
+0W
+0V
+0U
+0H
+0I
+0J
+0K
+0,
+0+
+0*
+0)
+#350000
+0!
+0;
+0Z
+0S
+0[
+#360000
+1!
+1;
+1Z
+1S
+1[
+1t
+0^
+1e
+1f
+1U
+1K
+1,
+#370000
+0!
+0;
+0Z
+0S
+0[
+#380000
+1!
+01
+1;
+0<
+0_
+1Z
+0O
+1S
+1[
+0`
+0t
+1^
+0e
+0f
+0U
+0K
+0,
+#390000
+0!
+0;
+0Z
+0S
+0[
+#400000
+1!
+11
+1;
+1<
+1_
+1Z
+1O
+1S
+1[
+1`
+1t
+0^
+1e
+1f
+1U
+1K
+1,
+#410000
+0!
+0;
+0Z
+0S
+0[
+#420000
+1!
+1$
+1;
+1>
+1\
+1Z
+1S
+1l
+1[
+0t
+1s
+1q
+1o
+0f
+1X
+1V
+0U
+1H
+1J
+0K
+0,
+1+
+1)
+#430000
+0!
+0;
+0Z
+0S
+0[
+#440000
+1!
+0$
+1;
+0>
+0\
+1Z
+1S
+1^
+1[
+1t
+0^
+0e
+1i
+1j
+1U
+1K
+1,
+#450000
+0!
+0;
+0Z
+0S
+0[
+#460000
+1!
+1;
+1Z
+1S
+1[
+0t
+0s
+1r
+0o
+1^
+1W
+0V
+0U
+1I
+0J
+0K
+0,
+0+
+1*
+#470000
+0!
+0;
+0Z
+0S
+0[
+#480000

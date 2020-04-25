@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 25 13:09:19 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ContadorAsincrono
+Top-level Entity Name : contador_asincrono
+Family : Cyclone IV E
+Total logic elements : 10
+    Total combinational functions : 10
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
