@@ -11,4 +11,5 @@ Así, los resultados mostrados para cada código introducido con dichos pulsador
 * 11 -> mostrará el código de la operación (s)
 
 La simulación de la ALU 74381 sería la siguiente: 
-![Texto alternativo](/img/simulacion.png)
+
+![Texto alternativo](/Proyectos/lab7/img/simulacion.jpg)
