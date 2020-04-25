@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sat Apr 25 14:21:29 2020
+Fitter Status : Successful - Sat Apr 25 16:58:20 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : ContadorAsincrono
 Top-level Entity Name : contador_asincrono
 Family : Cyclone IV E
 Device : EP4CE22F17C6
 Timing Models : Final
-Total logic elements : 15 / 22,320 ( < 1 % )
-    Total combinational functions : 15 / 22,320 ( < 1 % )
+Total logic elements : 13 / 22,320 ( < 1 % )
+    Total combinational functions : 13 / 22,320 ( < 1 % )
     Dedicated logic registers : 4 / 22,320 ( < 1 % )
 Total registers : 4
 Total pins : 17 / 154 ( 11 % )

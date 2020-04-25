@@ -28,16 +28,17 @@ BEGIN
             cnt <= 0;                                 -- se reinicia el contador     
         ELSIF(clk'EVENT AND clk = '1') THEN           -- flanco de subida del reloj y enable activado
             IF load = '1' THEN 
-                cnt <= 0;  
-            ELSIF ld = '1' THEN                          -- carga activa a nivel alto
-                cnt <= R;                              -- cargo en el contador el valor que tenga el registro R                     -- activo la señal de habilitacio                        -- aumento a 1 el contado 
-            ELSIF en = '1' OR ld = '0' THEN
+                cnt <= 0;                                -- cargo en el contador el valor que tenga el registro R
+            ELSIF en = '0' THEN 
+                cnt <= cnt;                      -- activo la señal de habilitacio                        -- aumento a 1 el contado 
+            ELSIF ld = '0' AND en = '1' THEN                          -- carga activa a nivel alto
                 cnt <= cnt + 1; 
-            ELSE 
-                cnt <= cnt;                          -- si el enable es 0 mantengo el valor del contador 
-            END IF; 
+            ELSIF ld = '1' THEN  
+                cnt <= R;                          -- si el enable es 0 mantengo el valor del contador  
+            END IF;     
         END IF; 
     END PROCESS; 
+
 
     PROCESS(cnt, max)
     BEGIN 

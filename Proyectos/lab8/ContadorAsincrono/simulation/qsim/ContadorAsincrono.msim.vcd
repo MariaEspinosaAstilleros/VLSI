@@ -3,7 +3,7 @@ $comment
 		vcd file ContadorAsincrono.msim.vcd -direction
 $end
 $date
-	Sat Apr 25 14:21:44 2020
+	Sat Apr 25 16:58:33 2020
 $end
 $version
 	ModelSim Version 10.5b
@@ -75,35 +75,33 @@ $var wire 1 Y \max[2]~input_o\ $end
 $var wire 1 Z \max[3]~input_o\ $end
 $var wire 1 [ \clk~input_o\ $end
 $var wire 1 \ \clk~inputclkctrl_outclk\ $end
-$var wire 1 ] \ld~input_o\ $end
-$var wire 1 ^ \R[2]~input_o\ $end
-$var wire 1 _ \R[0]~input_o\ $end
-$var wire 1 ` \cnt[0]~0_combout\ $end
-$var wire 1 a \en~input_o\ $end
-$var wire 1 b \max[0]~input_o\ $end
-$var wire 1 c \max[1]~input_o\ $end
-$var wire 1 d \R[1]~input_o\ $end
-$var wire 1 e \cnt[1]~3_combout\ $end
-$var wire 1 f \cnt[1]~4_combout\ $end
-$var wire 1 g \cnt[1]~5_combout\ $end
-$var wire 1 h \resetn~input_o\ $end
-$var wire 1 i \resetn~inputclkctrl_outclk\ $end
-$var wire 1 j \Equal0~0_combout\ $end
-$var wire 1 k \cnt[3]~1_combout\ $end
-$var wire 1 l \cnt[0]~2_combout\ $end
-$var wire 1 m \cnt[2]~6_combout\ $end
-$var wire 1 n \cnt[2]~7_combout\ $end
-$var wire 1 o \cnt[2]~8_combout\ $end
-$var wire 1 p \R[3]~input_o\ $end
-$var wire 1 q \Add0~0_combout\ $end
-$var wire 1 r \cnt[3]~9_combout\ $end
-$var wire 1 s \cnt[3]~10_combout\ $end
-$var wire 1 t \Equal0~1_combout\ $end
-$var wire 1 u \Equal0~2_combout\ $end
-$var wire 1 v cnt [3] $end
-$var wire 1 w cnt [2] $end
-$var wire 1 x cnt [1] $end
-$var wire 1 y cnt [0] $end
+$var wire 1 ] \en~input_o\ $end
+$var wire 1 ^ \ld~input_o\ $end
+$var wire 1 _ \R[2]~input_o\ $end
+$var wire 1 ` \R[0]~input_o\ $end
+$var wire 1 a \cnt[0]~0_combout\ $end
+$var wire 1 b \cnt[0]~1_combout\ $end
+$var wire 1 c \resetn~input_o\ $end
+$var wire 1 d \resetn~inputclkctrl_outclk\ $end
+$var wire 1 e \R[1]~input_o\ $end
+$var wire 1 f \cnt[1]~2_combout\ $end
+$var wire 1 g \cnt[1]~3_combout\ $end
+$var wire 1 h \Add0~0_combout\ $end
+$var wire 1 i \cnt[2]~4_combout\ $end
+$var wire 1 j \cnt[2]~5_combout\ $end
+$var wire 1 k \R[3]~input_o\ $end
+$var wire 1 l \Add0~1_combout\ $end
+$var wire 1 m \cnt[3]~6_combout\ $end
+$var wire 1 n \cnt[3]~7_combout\ $end
+$var wire 1 o \Equal0~1_combout\ $end
+$var wire 1 p \max[1]~input_o\ $end
+$var wire 1 q \max[0]~input_o\ $end
+$var wire 1 r \Equal0~0_combout\ $end
+$var wire 1 s \Equal0~2_combout\ $end
+$var wire 1 t cnt [3] $end
+$var wire 1 u cnt [2] $end
+$var wire 1 v cnt [1] $end
+$var wire 1 w cnt [0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -137,31 +135,29 @@ x4
 1Z
 1[
 1\
-0]
-1^
+1]
+0^
 1_
 1`
 1a
 1b
-0c
-0d
-1e
+1c
+1d
+0e
 0f
 0g
-1h
-1i
+0h
+0i
 0j
-1k
-1l
+0k
+0l
 0m
 0n
 0o
 0p
-0q
+1q
 0r
 0s
-0t
-0u
 1%
 0&
 0'
@@ -186,10 +182,10 @@ x4
 0I
 0J
 0K
+0t
+0u
 0v
 0w
-0x
-0y
 1P
 1Q
 1R
@@ -211,12 +207,12 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1j
+1w
+0a
+1f
+1r
 1g
-0l
+0b
 1U
 1K
 1,
@@ -232,17 +228,18 @@ $end
 1[
 1S
 1\
-1x
-0y
-1`
-1e
-1f
-0j
-1l
-0U
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0K
+0U
 1J
+0K
 0,
 1+
 #50000
@@ -257,15 +254,15 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1m
-1n
+1w
+0a
+1f
+1h
+1i
 0g
-0l
+0b
 1U
-1o
+1j
 1K
 1,
 #70000
@@ -280,19 +277,20 @@ $end
 1[
 1S
 1\
-0x
-0y
-1w
-1`
-1e
+0w
+0v
+1u
+1g
+1a
 0f
-1l
+0g
+1b
 1W
-0U
 0V
+0U
 1I
-0K
 0J
+0K
 0,
 0+
 1*
@@ -308,12 +306,12 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1j
+1w
+0a
+1f
+1r
 1g
-0l
+0b
 1U
 1K
 1,
@@ -328,12 +326,11 @@ $end
 0#
 1;
 0=
-0a
+0]
 1[
 1S
-1e
-0k
-1l
+1a
+1b
 0g
 1\
 #130000
@@ -347,25 +344,25 @@ $end
 1#
 1;
 1=
-1a
+1]
 1[
 1S
-0e
-1k
-0l
+0a
 1g
+0b
 1\
-1x
-0y
-1`
-1e
-1f
-0j
-1l
-0U
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0K
+0U
 1J
+0K
 0,
 1+
 #150000
@@ -380,18 +377,18 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-0m
-1q
-1r
-0n
+1w
+0a
+1f
+0h
+1l
+1m
+0i
 0g
-0l
+0b
 1U
-0o
-1s
+0j
+1n
 1K
 1,
 #170000
@@ -406,23 +403,24 @@ $end
 1[
 1S
 1\
-0x
-0y
 0w
-1v
+0v
+0u
 1t
-1`
-1e
+1o
+1g
+1a
 0f
-1l
+0g
+1b
 1X
 0W
-0U
 0V
+0U
 1H
 0I
-0K
 0J
+0K
 0,
 0+
 0*
@@ -439,14 +437,16 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1j
-1u
-0l
+1w
+0a
+1f
+1r
+1s
+1g
+0b
 1U
-0s
+0g
+0n
 1K
 1,
 1T
@@ -464,18 +464,18 @@ $end
 1[
 1S
 1\
-0y
-0v
+0w
 0t
-1`
-1e
-0j
-0q
+0o
+1a
+0f
+0l
 0r
-0u
+0m
+0s
 0X
 0U
-1l
+1b
 0H
 0K
 0,
@@ -495,12 +495,12 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1j
+1w
+0a
+1f
+1r
 1g
-0l
+0b
 1U
 1K
 1,
@@ -516,17 +516,18 @@ $end
 1[
 1S
 1\
-1x
-0y
-1`
-1e
-1f
-0j
-1l
-0U
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0K
+0U
 1J
+0K
 0,
 1+
 #270000
@@ -541,15 +542,15 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1m
-1n
+1w
+0a
+1f
+1h
+1i
 0g
-0l
+0b
 1U
-1o
+1j
 1K
 1,
 #290000
@@ -564,19 +565,20 @@ $end
 1[
 1S
 1\
-0x
-0y
-1w
-1`
-1e
+0w
+0v
+1u
+1g
+1a
 0f
-1l
+0g
+1b
 1W
-0U
 0V
+0U
 1I
-0K
 0J
+0K
 0,
 0+
 1*
@@ -592,12 +594,12 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-1j
+1w
+0a
+1f
+1r
 1g
-0l
+0b
 1U
 1K
 1,
@@ -613,17 +615,18 @@ $end
 1[
 1S
 1\
-1x
-0y
-1`
-1e
-1f
-0j
-1l
-0U
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0K
+0U
 1J
+0K
 0,
 1+
 #350000
@@ -638,18 +641,18 @@ $end
 1[
 1S
 1\
-1y
-0`
-0e
-0m
-1q
-1r
-0n
+1w
+0a
+1f
+0h
+1l
+1m
+0i
 0g
-0l
+0b
 1U
-0o
-1s
+0j
+1n
 1K
 1,
 #370000
@@ -663,28 +666,29 @@ $end
 01
 1;
 0<
-0h
+0c
 1[
 0O
 1S
 1\
-0i
-0x
-0y
+0d
 0w
-1`
-1e
+0v
+0u
+1g
+1a
 0f
-0q
-0r
-1l
+0l
+0m
+0g
+1b
 0W
-0U
 0V
-0s
+0U
+0n
 0I
-0K
 0J
+0K
 0,
 0+
 0*
@@ -699,18 +703,18 @@ $end
 11
 1;
 1<
-1h
+1c
 1[
 1O
 1S
 1\
-1i
-1y
-0`
-0e
-1j
+1d
+1w
+0a
+1f
+1r
 1g
-0l
+0b
 1U
 1K
 1,
@@ -726,17 +730,18 @@ $end
 1[
 1S
 1\
-1x
-0y
-1`
-1e
-1f
-0j
-1l
-0U
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0K
+0U
 1J
+0K
 0,
 1+
 #430000
@@ -750,24 +755,28 @@ $end
 1$
 1;
 1>
-1]
+1^
 1[
 1S
-0e
-1n
-1o
+1f
+1i
+1j
 0g
 1\
-0x
-1y
 1w
-1j
+0v
+1u
+1g
+0f
+1h
+1r
+0g
 1W
-1U
 0V
+1U
 1I
-1K
 0J
+1K
 1,
 0+
 1*
@@ -782,39 +791,28 @@ $end
 0$
 1;
 0>
-0]
+0^
 1[
 1S
-0`
-0f
-1m
-0n
-0o
-1n
-1g
-0l
-1\
-1o
-1x
-0y
-0w
-1`
-1e
+0a
 1f
-0j
-0m
-0n
-1l
-0W
-0U
+1g
+0b
+1\
+0w
+1v
+0g
+1a
+0f
+0r
+1g
+1b
 1V
-0o
-0I
-0K
+0U
 1J
+0K
 0,
 1+
-0*
 #470000
 0!
 0;
