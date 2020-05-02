@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 02 12:58:08 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ContadorBidireccional
+Top-level Entity Name : contador_bidireccional
+Family : Cyclone IV E
+Total logic elements : 17
+    Total combinational functions : 17
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
